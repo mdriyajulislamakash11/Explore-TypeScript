@@ -76,8 +76,9 @@ let c: string[] = [];
 c.push("s") // ok
 c.push(4) // error: Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)
 
-let d: (string | number)[] = [];
-
+let d: (string | number )[] = [];
+d.push("ddd", 44,)  //okk
+d.push("ddd", 44, true)  //error: boolean type ney
 
 
 
