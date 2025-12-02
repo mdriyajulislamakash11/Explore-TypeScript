@@ -40,3 +40,11 @@ console.log(fruits);
 
 
 
+// objects type check
+let partner = {
+    name: "jhinuk",
+    age: 19,
+    isLove: true,
+}
+
+console.log(partner);

@@ -25,6 +25,13 @@ let fruits = ["apple", "mango", "orange", "banana", 4, true];
 fruits.push(55);
 fruits.push("asdf");
 console.log(fruits);
-export {};
 // array ta jodi sudhu string hoy pore jodi number kono kichu push kora hoy tahole type error dibe, ar jodi numbe thake array er moddhe tahole thik ase, abr jodi boolean thake tahole sm eki rokhom
+// objects type check
+let partner = {
+    name: "jhinuk",
+    age: 19,
+    isLove: true,
+};
+console.log(partner);
+export {};
 //# sourceMappingURL=index.js.map
