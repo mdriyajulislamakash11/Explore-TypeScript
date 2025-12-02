@@ -97,3 +97,11 @@ v = {
     age: 19,
     adult: true
 }
+
+
+// any type 
+let p: any[] = [];
+p.push("jhinuk"); 
+p.push(19); 
+p.push(true); 
+

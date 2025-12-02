@@ -65,5 +65,10 @@ v = {
     age: 19,
     adult: true
 };
+// any type 
+let p = [];
+p.push("jhinuk");
+p.push(19);
+p.push(true);
 export {};
 //# sourceMappingURL=index.js.map
