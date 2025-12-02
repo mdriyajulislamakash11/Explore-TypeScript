@@ -32,6 +32,7 @@ let partner = {
     age: 19,
     isLove: true,
 };
+// partner.country="blah blah"  // error
 console.log(partner);
 export {};
 //# sourceMappingURL=index.js.map

@@ -47,4 +47,5 @@ let partner = {
     isLove: true,
 }
 
+// partner.country="blah blah"  // error
 console.log(partner);
