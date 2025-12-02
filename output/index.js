@@ -55,5 +55,8 @@ c.push(4); // error: Argument of type 'number' is not assignable to parameter of
 let d = [];
 d.push("ddd", 44); //okk
 d.push("ddd", 44, true); //error: boolean type ney
+let f = [];
+f.push("ddd", 44); //okk
+f.push("ddd", 44, true); //ok: boolean type ase
 export {};
 //# sourceMappingURL=index.js.map

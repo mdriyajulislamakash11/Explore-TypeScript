@@ -80,5 +80,8 @@ let d: (string | number )[] = [];
 d.push("ddd", 44,)  //okk
 d.push("ddd", 44, true)  //error: boolean type ney
 
+let f: (string | number | boolean)[] = [];
+f.push("ddd", 44,)  //okk
+f.push("ddd", 44, true)  //ok: boolean type ase
 
 
