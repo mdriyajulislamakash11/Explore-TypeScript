@@ -45,6 +45,9 @@ b = "www"; // error: Type 'string' is not assignable to type 'string'.
 console.log(a); // www
 b = 2; // right
 console.log(a); // 2
-export {};
 // array
+let c = [];
+c.push("s"); // ok
+c.push(4); // error: Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)
+export {};
 //# sourceMappingURL=index.js.map

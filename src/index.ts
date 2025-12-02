@@ -68,6 +68,10 @@ console.log(a);  // 2
 
 
 // array
+let c: string[] = [];
+c.push("s") // ok
+c.push(4) // error: Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)
+
 
 
 
