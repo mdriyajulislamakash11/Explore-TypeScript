@@ -58,5 +58,12 @@ d.push("ddd", 44, true); //error: boolean type ney
 let f = [];
 f.push("ddd", 44); //okk
 f.push("ddd", 44, true); //ok: boolean type ase
+// object property ways type check 
+let v;
+v = {
+    name: "jhinuk",
+    age: 19,
+    adult: true
+};
 export {};
 //# sourceMappingURL=index.js.map

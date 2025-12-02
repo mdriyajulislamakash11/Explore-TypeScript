@@ -85,3 +85,15 @@ f.push("ddd", 44,)  //okk
 f.push("ddd", 44, true)  //ok: boolean type ase
 
 
+// object property ways type check 
+let v : {
+    name: string,
+    age: number,
+    adult: boolean
+}
+
+v = {
+    name: "jhinuk",
+    age: 19,
+    adult: true
+}
