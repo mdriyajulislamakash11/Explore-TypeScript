@@ -20,7 +20,7 @@ function multiple(a, b) {
     return a * b;
 }
 console.log(multiple(4, 7));
-// array type 
+// array type
 let fruits = ["apple", "mango", "orange", "banana", 4, true];
 fruits.push(55);
 fruits.push("asdf");
@@ -58,12 +58,12 @@ d.push("ddd", 44, true); //error: boolean type ney
 let f = [];
 f.push("ddd", 44); //okk
 f.push("ddd", 44, true); //ok: boolean type ase
-// object property ways type check 
+// object property ways type check
 let v;
 v = {
     name: "jhinuk",
     age: 19,
-    adult: true
+    adult: true,
 };
 // any type array
 let p = [];
@@ -75,7 +75,13 @@ let lal;
 lal = {
     name: "jhinuk",
     age: 19,
-    adult: true
+    adult: true,
 };
+// function check
+const myFunc = (a, b, c = "true") => {
+    console.log(c);
+    console.log(`hello ${a} ${b}`);
+};
+myFunc("typescript", "done", "false");
 export {};
 //# sourceMappingURL=index.js.map
