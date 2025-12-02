@@ -55,6 +55,10 @@ console.log(partner);
 // variable __________________/
 let a: string;
 let b: number;
+let e: string | number;  // 2 type er use kora jabe
+
+e="dd"      //ok
+e=44        //ok
 
 a="www" // right = www
 console.log(a); // www
@@ -72,6 +76,7 @@ let c: string[] = [];
 c.push("s") // ok
 c.push(4) // error: Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)
 
+let d: (string | number)[] = [];
 
 
 

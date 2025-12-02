@@ -37,6 +37,9 @@ console.log(partner);
 // variable __________________/
 let a;
 let b;
+let e; // 2 type er use kora jabe
+e = "dd"; //ok
+e = 44; //ok
 a = "www"; // right = www
 console.log(a); // www
 a = 2; // error: Type 'number' is not assignable to type 'string'.
@@ -49,5 +52,6 @@ console.log(a); // 2
 let c = [];
 c.push("s"); // ok
 c.push(4); // error: Argument of type 'number' is not assignable to parameter of type 'string'.ts(2345)
+let d = [];
 export {};
 //# sourceMappingURL=index.js.map
