@@ -67,6 +67,8 @@ b=2 // right
 console.log(a);  // 2
 
 
+// array
+
 
 
 

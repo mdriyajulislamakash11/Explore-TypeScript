@@ -46,4 +46,5 @@ console.log(a); // www
 b = 2; // right
 console.log(a); // 2
 export {};
+// array
 //# sourceMappingURL=index.js.map
