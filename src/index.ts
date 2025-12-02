@@ -109,8 +109,15 @@ lal = {
 
 // function check
 const myFunc = (a: string, b: string, c: string = "true") => {
-    console.log(c);
-    console.log(`hello ${a} ${b}`);
+  console.log(c);
+  console.log(`hello ${a} ${b}`);
 };
 
-myFunc("typescript", "done", "false")
+myFunc("typescript", "done", "false");
+
+// function check
+const myFunc2 = (a: number, b: number, c: string = "true") => {
+  return a + b
+};
+
+console.log(myFunc2(4, 4, "false"));;

@@ -83,5 +83,11 @@ const myFunc = (a, b, c = "true") => {
     console.log(`hello ${a} ${b}`);
 };
 myFunc("typescript", "done", "false");
+// function check
+const myFunc2 = (a, b, c = "true") => {
+    return a + b;
+};
+console.log(myFunc2(4, 4, "false"));
+;
 export {};
 //# sourceMappingURL=index.js.map
