@@ -34,5 +34,16 @@ let partner = {
 };
 // partner.country="blah blah"  // error
 console.log(partner);
+// variable __________________/
+let a;
+let b;
+a = "www"; // right = www
+console.log(a); // www
+a = 2; // error: Type 'number' is not assignable to type 'string'.
+console.log(a); // 2
+b = "www"; // error: Type 'string' is not assignable to type 'string'.
+console.log(a); // www
+b = 2; // right
+console.log(a); // 2
 export {};
 //# sourceMappingURL=index.js.map
