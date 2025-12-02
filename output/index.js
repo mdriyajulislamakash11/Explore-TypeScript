@@ -15,5 +15,10 @@ person = "tanisha";
 console.log(person); // tanisha
 person = 77;
 console.log(person); // 77
+// function type
+function multiple(a, b) {
+    return a * b;
+}
+console.log(multiple(4, 7));
 export {};
 //# sourceMappingURL=index.js.map
