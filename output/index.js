@@ -65,10 +65,17 @@ v = {
     age: 19,
     adult: true
 };
-// any type 
+// any type array
 let p = [];
 p.push("jhinuk");
 p.push(19);
 p.push(true);
+// any type object
+let lal;
+lal = {
+    name: "jhinuk",
+    age: 19,
+    adult: true
+};
 export {};
 //# sourceMappingURL=index.js.map

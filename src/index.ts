@@ -99,9 +99,21 @@ v = {
 }
 
 
-// any type 
+// any type array
 let p: any[] = [];
 p.push("jhinuk"); 
 p.push(19); 
 p.push(true); 
 
+// any type object
+let lal: {
+    name: any,
+    age: any,
+    adult: any;
+};
+
+lal = {
+    name: "jhinuk",
+    age: 19,
+    adult: true
+}
