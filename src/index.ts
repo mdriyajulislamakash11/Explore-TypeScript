@@ -120,4 +120,13 @@ const myFunc2 = (a: number, b: number, c: string = "true") => {
   return a + b
 };
 
-console.log(myFunc2(4, 4, "false"));;
+console.log(myFunc2(4, 4, "false"));
+
+
+
+
+
+
+
+
+
