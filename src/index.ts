@@ -132,13 +132,22 @@ const userDetails = (id: stringOrNumber, user: userType) => {
 
 // console.log(userDetails);
 
-
-
-
 /// function signature
 let add: (x: number, y: number) => number;
 
-add = (a: number, b: number ) =>{
-  return a*b
+add = (a: number, b: number) => {
+  return a * b;
+};
+// console.log(add(5,5));
+
+let calculate: (x: number, y: number, z: string) => number;
+
+calculate = (a: number, b: number, c: string) => {
+  if(c == "add") {
+    return a + b
+  }else{
+    return a*b
+  }
 }
-console.log(add(5,5));
+
+console.log(calculate(5,6, 'multiple'));

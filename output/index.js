@@ -97,6 +97,16 @@ let add;
 add = (a, b) => {
     return a * b;
 };
-console.log(add(5, 5));
+// console.log(add(5,5));
+let calculate;
+calculate = (a, b, c) => {
+    if (c == "add") {
+        return a + b;
+    }
+    else {
+        return a * b;
+    }
+};
+console.log(calculate(5, 6, 'multiple'));
 export {};
 //# sourceMappingURL=index.js.map
