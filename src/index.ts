@@ -130,4 +130,15 @@ const userDetails = (id: stringOrNumber, user: userType) => {
   console.log(`user id is ${id}, name is ${user.name} and age is ${user.age}`);
 };
 
-console.log(userDetails);
+// console.log(userDetails);
+
+
+
+
+/// function signature
+let add: (x: number, y: number) => number;
+
+add = (a: number, b: number ) =>{
+  return a*b
+}
+console.log(add(5,5));

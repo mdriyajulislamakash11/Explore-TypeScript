@@ -91,6 +91,12 @@ console.log(myFunc2(4, 4, "false"));
 const userDetails = (id, user) => {
     console.log(`user id is ${id}, name is ${user.name} and age is ${user.age}`);
 };
-console.log(userDetails);
+// console.log(userDetails);
+/// function signature
+let add;
+add = (a, b) => {
+    return a * b;
+};
+console.log(add(5, 5));
 export {};
 //# sourceMappingURL=index.js.map
