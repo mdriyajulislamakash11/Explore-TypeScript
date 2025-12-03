@@ -117,16 +117,17 @@ myFunc("typescript", "done", "false");
 
 // function check
 const myFunc2 = (a: number, b: number, c: string = "true") => {
-  return a + b
+  return a + b;
 };
 
 console.log(myFunc2(4, 4, "false"));
 
+// type aliases
+type stringOrNumber = string | number;
+type userType = { name: string; age: number };
 
+const userDetails = (id: stringOrNumber, user: userType) => {
+  console.log(`user id is ${id}, name is ${user.name} and age is ${user.age}`);
+};
 
-
-
-
-
-
-
+console.log(userDetails);

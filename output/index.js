@@ -88,5 +88,9 @@ const myFunc2 = (a, b, c = "true") => {
     return a + b;
 };
 console.log(myFunc2(4, 4, "false"));
+const userDetails = (id, user) => {
+    console.log(`user id is ${id}, name is ${user.name} and age is ${user.age}`);
+};
+console.log(userDetails);
 export {};
 //# sourceMappingURL=index.js.map
