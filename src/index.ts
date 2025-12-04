@@ -155,15 +155,11 @@ console.log(calculate(5, 6, "multiple"));
 //classes
 
 class Player {
-  private name: string;
-  public age: number;
-  readonly country: string;
-
-  constructor(n: string, a: number, c: string) {
-    this.name = n;
-    this.age = 25;
-    this.country = c;
-  }
+  constructor(
+    private name: string,
+    public age: number,
+    readonly country: string
+  ) {}
 
   play() {
     console.log(`${this.name} from ${this.country} playing!`);
@@ -173,12 +169,12 @@ class Player {
 const akash = new Player("akash", 24, "bangladesh");
 const shanto = new Player("shanto", 24, "bangladesh");
 
-shanto.name = "ashik"
-shanto.age = 55
-shanto.country = "Canada"
+shanto.name = "ashik";
+shanto.age = 55;
+shanto.country = "Canada";
 
-console.log(shanto.name);  // ekhane error dicche
-console.log(shanto.age); 
-console.log(shanto.country); 
+console.log(shanto.name); // ekhane error dicche
+console.log(shanto.age);
+console.log(shanto.country);
 
 const players: Player[] = [];

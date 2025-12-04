@@ -113,10 +113,10 @@ class Player {
     name;
     age;
     country;
-    constructor(n, a, c) {
-        this.name = n;
-        this.age = 25;
-        this.country = c;
+    constructor(name, age, country) {
+        this.name = name;
+        this.age = age;
+        this.country = country;
     }
     play() {
         console.log(`${this.name} from ${this.country} playing!`);
