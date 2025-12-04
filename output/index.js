@@ -125,7 +125,11 @@ class Player {
 const akash = new Player("akash", 24, "bangladesh");
 const shanto = new Player("shanto", 24, "bangladesh");
 shanto.name = "ashik";
-console.log(shanto);
+shanto.age = 55;
+shanto.country = "Canada";
+console.log(shanto.name); // ekhane error dicche
+console.log(shanto.age);
+console.log(shanto.country);
 const players = [];
 export {};
 //# sourceMappingURL=index.js.map

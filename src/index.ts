@@ -155,9 +155,9 @@ console.log(calculate(5, 6, "multiple"));
 //classes
 
 class Player {
-  name: string;
-  age: number;
-  country: string;
+  private name: string;
+  public age: number;
+  readonly country: string;
 
   constructor(n: string, a: number, c: string) {
     this.name = n;
@@ -174,6 +174,11 @@ const akash = new Player("akash", 24, "bangladesh");
 const shanto = new Player("shanto", 24, "bangladesh");
 
 shanto.name = "ashik"
-console.log(shanto); 
+shanto.age = 55
+shanto.country = "Canada"
+
+console.log(shanto.name);  // ekhane error dicche
+console.log(shanto.age); 
+console.log(shanto.country); 
 
 const players: Player[] = [];
