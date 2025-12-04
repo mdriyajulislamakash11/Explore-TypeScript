@@ -1,3 +1,6 @@
+import {Player} from "./classes/Player.js"
+
+
 // video-2
 const country = "Bangladesh new bangladesh hello ";
 console.log(country);
@@ -152,19 +155,25 @@ calculate = (a: number, b: number, c: string) => {
 
 console.log(calculate(5, 6, "multiple"));
 
-//classes
 
-class Player {
-  constructor(
-    private name: string,
-    public age: number,
-    readonly country: string
-  ) {}
 
-  play() {
-    console.log(`${this.name} from ${this.country} playing!`);
-  }
-}
+//classes ekhanei ei class take onno folder baniye tar majh theke import koresi
+// class Player {
+//   // constructor(n: string, a: number, c: string) {
+//   //   this.name = n;
+//   //   this.age = 25;
+//   //   this.country = c;
+//   // }
+//   constructor(
+//     private name: string,
+//     public age: number,
+//     readonly country: string
+//   ) {}
+
+//   play() {
+//     console.log(`${this.name} from ${this.country} playing!`);
+//   }
+// }
 
 const akash = new Player("akash", 24, "bangladesh");
 const shanto = new Player("shanto", 24, "bangladesh");
