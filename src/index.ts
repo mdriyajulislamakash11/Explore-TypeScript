@@ -159,17 +159,21 @@ class Player {
   age: number;
   country: string;
 
-  constructor(n: string, a: number, c: string){
+  constructor(n: string, a: number, c: string) {
     this.name = n;
     this.age = 25;
     this.country = c;
   }
 
   play() {
-    console.log();
-    
+    console.log(`${this.name} from ${this.country} playing!`);
   }
-
-
-
 }
+
+const akash = new Player("akash", 24, "bangladesh");
+const shanto = new Player("shanto", 24, "bangladesh");
+
+shanto.name = "ashik"
+console.log(shanto); 
+
+const players: Player[] = [];
