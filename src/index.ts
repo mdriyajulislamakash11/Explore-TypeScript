@@ -143,11 +143,33 @@ add = (a: number, b: number) => {
 let calculate: (x: number, y: number, z: string) => number;
 
 calculate = (a: number, b: number, c: string) => {
-  if(c == "add") {
-    return a + b
-  }else{
-    return a*b
+  if (c == "add") {
+    return a + b;
+  } else {
+    return a * b;
   }
-}
+};
 
-console.log(calculate(5,6, 'multiple'));
+console.log(calculate(5, 6, "multiple"));
+
+//classes
+
+class Player {
+  name: string;
+  age: number;
+  country: string;
+
+  constructor(n: string, a: number, c: string){
+    this.name = n;
+    this.age = 25;
+    this.country = c;
+  }
+
+  play() {
+    console.log();
+    
+  }
+
+
+
+}

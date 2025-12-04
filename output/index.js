@@ -107,6 +107,20 @@ calculate = (a, b, c) => {
         return a * b;
     }
 };
-console.log(calculate(5, 6, 'multiple'));
+console.log(calculate(5, 6, "multiple"));
+//classes
+class Player {
+    name;
+    age;
+    country;
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = 25;
+        this.country = c;
+    }
+    play() {
+        console.log();
+    }
+}
 export {};
 //# sourceMappingURL=index.js.map
